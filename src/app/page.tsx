@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return ( <>
-  <header>
+  <header className="flex justify-between items-center mb-4">
     <h1 className="text-2x1">Todos</h1>
   <Link href="/new">New</Link>
     </header>
